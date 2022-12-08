@@ -1,0 +1,71 @@
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+----------------------------------Using stored unhandled routes!.----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+
+You are using "" as server.
+      ----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------Using stored unhandled routes!.
+
+
+
+
+Puppeteer error while rendering ""
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "/party"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/party
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "/contacts"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/contacts
+ we will retry rendering this page up to 3 times.
+
+Puppeteer error while rendering "/rent"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/rent
+ we will retry rendering this page up to 3 times.
+
+Puppeteer error while rendering ""
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "/party"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/party
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "/contacts"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/contacts
+ we will retry rendering this page up to 3 times.
+
+
+Puppeteer error while rendering "/rent"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/rent
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering ""
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864
+ we will retry rendering this page up to 3 times.
+Puppeteer error while rendering "/party"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/party
+ we will retry rendering this page up to 3 times.Puppeteer error while rendering "/contacts"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/contacts
+ we will retry rendering this page up to 3 times.
+
+Puppeteer error while rendering "/rent"
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:1864/rent
+ we will retry rendering this page up to 3 times.
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+

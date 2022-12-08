@@ -1,0 +1,19 @@
+
+.fullscreen-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:first-of-type {
+    background-color: #ff99c8;
+  }
+
+  &:nth-of-type(2) {
+    background-color: #fcf6bd;
+  }
+
+  &:nth-of-type(3) {
+    background-color: #d0f4de;
+  }
+}

@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  z-index: 3;
+  background-color: blue;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition-property: opacity, visibility;
+  transition-duration: 0.25s;
+  visibility: hidden;
+
+  &.visible {
+    opacity: 0.6;
+    visibility: visible;
+  }
+}
+
+.mobile-menu {
+  color: #fff;
+  z-index: 3;
+  background: #333;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 250px;
+  padding: 1.5rem 1rem;
+  transform: translateX(100%);
+  transition-property: transform, visibility;
+  transition-duration: 0.25s;
+  visibility: hidden;
+
+  &.visible {
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  .close-menu-button {
+    position: absolute;
+    right: 1rem;
+    border-style: none;
+    background-color: transparent;
+    color: #fff;
+
+    span {
+      $padding: 0.75rem;
+      display: block;
+      padding: $padding;
+      transform: translate($padding, -$padding);
+    }
+  }
+
+  .logo {
+    width: 100px;
+    height: 124px;
+    background-color: green;
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.open-mobile-menu-button {
+  position: fixed;
+  top: 0.75rem;
+  // right: 0rem;
+  right: 0.25rem;
+  border: none;
+  background-color: transparent;
+  transform: scale(0.75);
+}

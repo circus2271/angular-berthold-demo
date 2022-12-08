@@ -1,0 +1,29 @@
+<header class="header page-header">
+  <div class="wrapper">
+    <h1>
+      <span>NewCastle</span>
+      <span>centre</span>
+    </h1>
+    <div class="image-wrapper">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Tyne_Bridge.jpg/1280px-Tyne_Bridge.jpg"
+        alt="Newcastle photo"
+        width="288"
+        heigth="216"
+        #image
+        [style.visibility]="'visible'"
+        (load)="image.style.visibility = 'visible'"
+      />
+    </div>
+    <p class="description">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure doloremque
+      asperiores nisi esse corrupti veritatis sint rem voluptatem nulla
+      mollitia?
+    </p>
+    <div class="navigation-links">
+      <a routerLink="/party">Мероприятия</a>
+      <a routerLink="/rent">Резидентство</a>
+    </div>
+  </div>
+</header>
+<section class="about-section"></section>

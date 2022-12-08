@@ -1,0 +1,45 @@
+<div
+  class="overlay"
+  [ngClass]="{ visible: mobileNavbarOpen }"
+  (click)="toggleMobileMenu()"
+></div>
+<div class="mobile-menu" [ngClass]="{ visible: mobileNavbarOpen }">
+  <button class="close-menu-button" (click)="toggleMobileMenu()">
+    <span>close</span>
+  </button>
+  <div class="logo">
+    <!-- <img src="" alt=""> -->
+  </div>
+  <ul>
+    <li>
+      <a routerLink="/">home</a>
+    </li>
+    <li>
+      <a routerLink="/party">party</a>
+    </li>
+    <li>
+      <a routerLink="/rent">rent</a>
+    </li>
+    <li>
+      <a routerLink="/rent" fragment="section-3">rent (3rd section)</a>
+    </li>
+    <li>
+      <a routerLink="/contacts">contacts with a map</a>
+    </li>
+  </ul>
+</div>
+
+<button
+  class="open-mobile-menu-button"
+  (click)="openMobileMenu()"
+  aria-label="open mobile menu"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="48"
+    width="48"
+    stroke="currentColor"
+  >
+    <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+  </svg>
+</button>
