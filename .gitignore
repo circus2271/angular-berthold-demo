@@ -4,3 +4,8 @@ node_modules
 .scully
 .vscode
 .idea
+scully.log
+scullyStats.json
+/scully/**/*.js
+/scully/**/*.js.map
+/scully/**/*.d.ts
