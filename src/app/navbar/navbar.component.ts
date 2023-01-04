@@ -1,21 +1,16 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
   @Input() mobileNavbarOpen: boolean = false;
   @Output() mobileNavbarOpenChange = new EventEmitter<boolean>();
-  constructor(private route: ActivatedRoute) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.route.url.subscribe(console.log);
-  }
-
-  toggleMobileMenu() {
+  closeMobileMenu() {
     this.mobileNavbarOpenChange.emit(false);
   }
 

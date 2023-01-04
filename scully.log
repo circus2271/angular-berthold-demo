@@ -239,3 +239,32 @@ The option outDir isn't configured, using default folder ".\dist\static\". Depre
 
 
 
+Folder "./scully" doesn't seem to contain custom plugins
+Scully development Server is already started running in a different folder(You can skip this, or any future question by using the --noPrompt flag)
+
+Folder "./scully" doesn't seem to contain custom plugins
+Scully development Server is already started running in a different folder(You can skip this, or any future question by using the --noPrompt flag)
+
+Scully development Server is already started running in a different folder(You can skip this, or any future question by using the --noPrompt flag)
+
+Folder "./scully" doesn't seem to contain custom plugins
+Scully development Server is already started running in a different folder(You can skip this, or any future question by using the --noPrompt flag)
+
+Folder "./scully" doesn't seem to contain custom plugins
+Scully development Server is already started running in a different folder(You can skip this, or any future question by using the --noPrompt flag)
+
+NOTICE:
+****************************************************************************************
+  This is a development tool for Scully applications.
+  You can ignore the warning (TLS) or run scully with --no-warning
+****************************************************************************************Sent kill command to other server
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+Folder "./scully" doesn't seem to contain custom plugins
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+

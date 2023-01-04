@@ -53,11 +53,7 @@ const mapConfig: YaConfig = {
   imports: [
     BrowserModule,
     FormsModule,
-    // RouterModule.forRoot(routes, {
-    //   anchorScrolling: 'enabled'
-    // }),
     RouterModule.forRoot(routes, {
-      // scrollPositionRestoration: 'enabled'
       onSameUrlNavigation: 'reload',
     }),
     HttpClientModule,

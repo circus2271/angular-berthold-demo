@@ -10,9 +10,8 @@
         alt="Newcastle photo"
         width="288"
         heigth="216"
-        #image
-        [style.visibility]="'visible'"
-        (load)="image.style.visibility = 'visible'"
+        (load)="showImage = true"
+        [class.visible]="showImage"
       />
     </div>
     <p class="description">

@@ -1,10 +1,10 @@
 <div
   class="overlay"
   [ngClass]="{ visible: mobileNavbarOpen }"
-  (click)="toggleMobileMenu()"
+  (click)="closeMobileMenu()"
 ></div>
 <div class="mobile-menu" [ngClass]="{ visible: mobileNavbarOpen }">
-  <button class="close-menu-button" (click)="toggleMobileMenu()">
+  <button class="close-menu-button" (click)="closeMobileMenu()">
     <span>close</span>
   </button>
   <div class="logo">

@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
 interface Placemark {
   center: number[];
@@ -11,8 +11,7 @@ interface Placemark {
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.scss'],
 })
-export class ContactsComponent implements OnInit {
-  // @ViewChild('additionalInfo') additionalInfo!: ElementRef<HTMLDivElement>
+export class ContactsComponent {
   mapIsReady: boolean = false;
 
   placemark: Placemark = {
@@ -25,8 +24,4 @@ export class ContactsComponent implements OnInit {
       preset: 'islands#blueIcon',
     },
   };
-
-  constructor() {}
-
-  ngOnInit() {}
 }
