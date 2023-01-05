@@ -13,6 +13,10 @@ interface Placemark {
 })
 export class ContactsComponent {
   mapIsReady: boolean = false;
+  phoneNumbers = [
+      '+7 (812) 241-73-60',
+      '+7 (812) 241-73-60'
+  ]
 
   placemark: Placemark = {
     center: [59.928434, 30.311994],
